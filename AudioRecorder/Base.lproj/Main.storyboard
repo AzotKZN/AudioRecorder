@@ -7,7 +7,7 @@
         <!--Root View Controller-->
         <scene sceneID="TE0-9y-02P">
             <objects>
-                <tableViewController id="gUp-WQ-Qhv" sceneMemberID="viewController">
+                <tableViewController id="gUp-WQ-Qhv" customClass="SAAudioRecorderVC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="YxO-fQ-YSk">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="1217" y="411"/>
         </scene>
-        <!--View Controller-->
+        <!--Audio RecordVC-->
         <scene sceneID="eB8-W3-gqv">
             <objects>
-                <viewController id="d4h-A5-PBD" sceneMemberID="viewController">
+                <viewController id="d4h-A5-PBD" customClass="SPAudioRecordVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OqL-RT-rGC"/>
                         <viewControllerLayoutGuide type="bottom" id="yjv-cn-BNJ"/>
