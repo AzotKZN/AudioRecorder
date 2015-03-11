@@ -14,6 +14,10 @@
 		9258265F1AB028A50021D8E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9258265E1AB028A50021D8E5 /* Images.xcassets */; };
 		925826621AB028A50021D8E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 925826601AB028A50021D8E5 /* LaunchScreen.xib */; };
 		9258266E1AB028A50021D8E5 /* AudioRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258266D1AB028A50021D8E5 /* AudioRecorderTests.m */; };
+		925826781AB02A350021D8E5 /* SPAudioRecordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 925826771AB02A350021D8E5 /* SPAudioRecordVC.xib */; };
+		9258267A1AB02A530021D8E5 /* SPAudioRcPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 925826791AB02A530021D8E5 /* SPAudioRcPlayer.xib */; };
+		9258267D1AB02AA80021D8E5 /* SPAudioRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258267C1AB02AA80021D8E5 /* SPAudioRecordVC.m */; };
+		925826801AB02ABD0021D8E5 /* SPAudioRcPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258267F1AB02ABD0021D8E5 /* SPAudioRcPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		925826671AB028A50021D8E5 /* AudioRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9258266C1AB028A50021D8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9258266D1AB028A50021D8E5 /* AudioRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRecorderTests.m; sourceTree = "<group>"; };
+		925826771AB02A350021D8E5 /* SPAudioRecordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPAudioRecordVC.xib; sourceTree = "<group>"; };
+		925826791AB02A530021D8E5 /* SPAudioRcPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPAudioRcPlayer.xib; sourceTree = "<group>"; };
+		9258267B1AB02AA80021D8E5 /* SPAudioRecordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAudioRecordVC.h; sourceTree = "<group>"; };
+		9258267C1AB02AA80021D8E5 /* SPAudioRecordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAudioRecordVC.m; sourceTree = "<group>"; };
+		9258267E1AB02ABD0021D8E5 /* SPAudioRcPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAudioRcPlayer.h; sourceTree = "<group>"; };
+		9258267F1AB02ABD0021D8E5 /* SPAudioRcPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAudioRcPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,12 @@
 				925826581AB028A50021D8E5 /* ViewController.h */,
 				925826591AB028A50021D8E5 /* ViewController.m */,
 				9258265B1AB028A50021D8E5 /* Main.storyboard */,
+				925826771AB02A350021D8E5 /* SPAudioRecordVC.xib */,
+				9258267B1AB02AA80021D8E5 /* SPAudioRecordVC.h */,
+				9258267C1AB02AA80021D8E5 /* SPAudioRecordVC.m */,
+				925826791AB02A530021D8E5 /* SPAudioRcPlayer.xib */,
+				9258267E1AB02ABD0021D8E5 /* SPAudioRcPlayer.h */,
+				9258267F1AB02ABD0021D8E5 /* SPAudioRcPlayer.m */,
 				9258265E1AB028A50021D8E5 /* Images.xcassets */,
 				925826601AB028A50021D8E5 /* LaunchScreen.xib */,
 				925826511AB028A50021D8E5 /* Supporting Files */,
@@ -200,8 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9258265D1AB028A50021D8E5 /* Main.storyboard in Resources */,
+				925826781AB02A350021D8E5 /* SPAudioRecordVC.xib in Resources */,
 				925826621AB028A50021D8E5 /* LaunchScreen.xib in Resources */,
 				9258265F1AB028A50021D8E5 /* Images.xcassets in Resources */,
+				9258267A1AB02A530021D8E5 /* SPAudioRcPlayer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9258265A1AB028A50021D8E5 /* ViewController.m in Sources */,
+				9258267D1AB02AA80021D8E5 /* SPAudioRecordVC.m in Sources */,
 				925826571AB028A50021D8E5 /* AppDelegate.m in Sources */,
 				925826541AB028A50021D8E5 /* main.m in Sources */,
+				925826801AB02ABD0021D8E5 /* SPAudioRcPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
