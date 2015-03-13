@@ -19,6 +19,8 @@
 		925826861AB030D60021D8E5 /* SPAudioRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 925826851AB030D50021D8E5 /* SPAudioRecordVC.m */; };
 		925826891AB031810021D8E5 /* SAAudioRecorderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 925826881AB031810021D8E5 /* SAAudioRecorderVC.m */; };
 		9258268B1AB031EA0021D8E5 /* SPAudioRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9258268A1AB031EA0021D8E5 /* SPAudioRecordView.xib */; };
+		9258268E1AB094780021D8E5 /* SPAudioRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258268D1AB094780021D8E5 /* SPAudioRecordView.m */; };
+		92F36A2A1AB2142D007ACD5E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F36A291AB2142D007ACD5E /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		925826871AB031810021D8E5 /* SAAudioRecorderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAudioRecorderVC.h; sourceTree = "<group>"; };
 		925826881AB031810021D8E5 /* SAAudioRecorderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAudioRecorderVC.m; sourceTree = "<group>"; };
 		9258268A1AB031EA0021D8E5 /* SPAudioRecordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPAudioRecordView.xib; sourceTree = "<group>"; };
+		9258268C1AB094780021D8E5 /* SPAudioRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAudioRecordView.h; sourceTree = "<group>"; };
+		9258268D1AB094780021D8E5 /* SPAudioRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAudioRecordView.m; sourceTree = "<group>"; };
+		92F36A291AB2142D007ACD5E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F36A2A1AB2142D007ACD5E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +82,7 @@
 		925826451AB028A50021D8E5 = {
 			isa = PBXGroup;
 			children = (
+				92F36A291AB2142D007ACD5E /* AVFoundation.framework */,
 				925826501AB028A50021D8E5 /* AudioRecorder */,
 				9258266A1AB028A50021D8E5 /* AudioRecorderTests */,
 				9258264F1AB028A50021D8E5 /* Products */,
@@ -98,12 +105,14 @@
 				925826561AB028A50021D8E5 /* AppDelegate.m */,
 				925826581AB028A50021D8E5 /* ViewController.h */,
 				925826591AB028A50021D8E5 /* ViewController.m */,
-				9258265B1AB028A50021D8E5 /* Main.storyboard */,
 				925826871AB031810021D8E5 /* SAAudioRecorderVC.h */,
 				925826881AB031810021D8E5 /* SAAudioRecorderVC.m */,
-				9258268A1AB031EA0021D8E5 /* SPAudioRecordView.xib */,
+				9258265B1AB028A50021D8E5 /* Main.storyboard */,
 				925826841AB030D50021D8E5 /* SPAudioRecordVC.h */,
 				925826851AB030D50021D8E5 /* SPAudioRecordVC.m */,
+				9258268A1AB031EA0021D8E5 /* SPAudioRecordView.xib */,
+				9258268C1AB094780021D8E5 /* SPAudioRecordView.h */,
+				9258268D1AB094780021D8E5 /* SPAudioRecordView.m */,
 				925826791AB02A530021D8E5 /* SPAudioRcPlayer.xib */,
 				9258267E1AB02ABD0021D8E5 /* SPAudioRcPlayer.h */,
 				9258267F1AB02ABD0021D8E5 /* SPAudioRcPlayer.m */,
@@ -246,6 +255,7 @@
 				925826891AB031810021D8E5 /* SAAudioRecorderVC.m in Sources */,
 				925826571AB028A50021D8E5 /* AppDelegate.m in Sources */,
 				925826861AB030D60021D8E5 /* SPAudioRecordVC.m in Sources */,
+				9258268E1AB094780021D8E5 /* SPAudioRecordView.m in Sources */,
 				925826541AB028A50021D8E5 /* main.m in Sources */,
 				925826801AB02ABD0021D8E5 /* SPAudioRcPlayer.m in Sources */,
 			);
@@ -438,6 +448,7 @@
 				925826731AB028A50021D8E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		925826741AB028A50021D8E5 /* Build configuration list for PBXNativeTarget "AudioRecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +457,7 @@
 				925826761AB028A50021D8E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

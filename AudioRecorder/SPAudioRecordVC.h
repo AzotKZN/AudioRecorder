@@ -7,7 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "SPAudioRecordView.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface SPAudioRecordVC : ViewController
+@interface SPAudioRecordVC : ViewController <AVAudioPlayerDelegate, AVAudioRecorderDelegate, UITableViewDataSource, UITableViewDelegate, UITextViewDelegate, UIScrollViewDelegate>
+@property (strong, nonatomic) IBOutlet UIView *topView;
+@property (strong, nonatomic) SPAudioRecordView *recordView;
+
 
 @end
+
